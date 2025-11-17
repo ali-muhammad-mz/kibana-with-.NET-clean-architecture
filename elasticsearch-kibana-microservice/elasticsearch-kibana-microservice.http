@@ -1,0 +1,6 @@
+@elasticsearch_kibana_microservice_HostAddress = http://localhost:5015
+
+GET {{elasticsearch_kibana_microservice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

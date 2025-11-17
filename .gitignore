@@ -1,0 +1,69 @@
+# ---- .NET build artifacts ----
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.cache
+
+# ---- User-specific files ----
+*.user
+*.suo
+*.userprefs
+*.userosscache
+*.sln.docstates
+
+# ---- VS Code ----
+.vscode/
+*.code-workspace
+
+# ---- Logs ----
+*.log
+logs/
+log/
+
+# ---- Env files / secrets ----
+*.env
+.env
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# ---- OS-specific files ----
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ---- Docker ----
+# Ignore volumes, containers, temp data
+docker-data/
+docker-volumes/
+
+# ---- ElasticSearch ----
+# If you map volumes local → container, avoid committing data
+es-data/
+es-logs/
+kibana-data/
+
+# ---- MongoDB ----
+# Local mapped Mongo data folder
+mongodb-data/
+
+# ---- Rider / JetBrains ----
+.idea/
+*.iml
+
+# ---- Git ----
+*.orig
+
+# ---- Node (if front-end exists later) ----
+node_modules/
+npm-debug.log
+
+# ---- Other temp files ----
+*.tmp
+*.temp
+*.swp
