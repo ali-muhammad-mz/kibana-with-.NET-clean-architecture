@@ -17,6 +17,7 @@ out/
 # ---- VS Code ----
 .vscode/
 *.code-workspace
+.vs/
 
 # ---- Logs ----
 *.log
